@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>NLScanner Client</Title>
+    <Authors>Sergey Mazmanyan</Authors>
+    <Company>AEB</Company>
+    <Description>NewLand barcode scanner client (N-ScanHub wrapper)</Description>
+    <Version>2.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="N-ScanHub.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
